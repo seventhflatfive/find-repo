@@ -15,6 +15,7 @@ class MainActivity : AppCompatActivity() {
         val searchEditText = findViewById<EditText>(R.id.searchEditText)
 
         val button = findViewById<Button>(R.id.searchButton)
+        // move to new activity with textview info
         button.setOnClickListener {
             val intent = Intent(this, SearchResultActivity::class.java)
             intent.putExtra("searchTerm", searchEditText.text.toString())
