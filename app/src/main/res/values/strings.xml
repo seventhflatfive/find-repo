@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Find Repo</string>
+    <string name="kotlin_json_parser">Search for Repos</string>
+    <string name="project_name">Project Name</string>
+    <string name="todo">TODO</string>
+    <string name="view_user_s_repos">View User\'s Repos</string>
+    <string name="view">View</string>
+</resources>
