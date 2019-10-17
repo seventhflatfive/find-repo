@@ -28,7 +28,7 @@ class SearchResultActivity : AppCompatActivity() {
         val callback = object : Callback<GitHubSearchResult> {
 
             override fun onFailure(call: Call<GitHubSearchResult>, t: Throwable) {
-
+                // should probably implement some kind of error handling here
                 //println("NOT WORKING")
             }
 
